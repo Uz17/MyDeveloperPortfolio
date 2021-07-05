@@ -37,3 +37,29 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.exp-item{
+    width: 40%;
+    margin-left:  8%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+#web-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,yellow) ;
+    border-image-slice: 1;   
+}
+#web-exp1{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,yellow) ;
+    border-image-slice: 1;   
+}
+footer{
+    text-align: center;
+}
